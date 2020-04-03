@@ -1,6 +1,6 @@
 package com.homelearning;
 
-public class Postpaid {
+public class PostPaidConnection {
 
         String name;
         String email;
@@ -13,7 +13,7 @@ public class Postpaid {
         boolean isPaymentDone = false;
 
 
-        public Postpaid(String name, String email, String phone, String address, char gender, String adharId, double plan) {
+        public PostPaidConnection(String name, String email, String phone, String address, char gender, String adharId, double plan) {
             this.name = name;
             this.email = email;
             this.phone = phone;
@@ -58,7 +58,7 @@ public class Postpaid {
         }
 
         public static void main(String[] args) {
-            Postpaid airtel = new Postpaid("Hamid", "khanham4@gmail.com", "9766912252",
+            PostPaidConnection airtel = new PostPaidConnection("Hamid", "khanham4@gmail.com", "9766912252",
                     "pwc", 'M', "32478654649", 499);
 
             System.out.println("**** welcome to  airtel family ****");
