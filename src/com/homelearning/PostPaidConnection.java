@@ -59,7 +59,7 @@ public class PostPaidConnection {
 
         public static void main(String[] args) {
             PostPaidConnection airtel = new PostPaidConnection("Hamid", "khanham4@gmail.com", "9766912252",
-                    "pwc", 'M', "32478654649", 999);
+                    "pwc", 'M', "32478654649", 799);
 
             System.out.println("**** welcome to  airtel family ****");
             System.out.println("the current outstanding bill:" + airtel.outstandingAmount());
