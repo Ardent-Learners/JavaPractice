@@ -66,7 +66,7 @@ public class PostPaidConnection {
 
             airtel.usageCharges(20.0);
             airtel.usageCharges(55.0);
-            airtel.usageCharges(87.0);
+            airtel.usageCharges(90.0);
 
 
             System.out.println("the current outstanding bill:" + airtel.outstandingAmount());
